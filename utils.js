@@ -3,11 +3,11 @@ import omit from 'lodash.omit';
 
 const notion = new Client({ auth: process.env.SECRET });
 
-const getUrl = (note) => {
+export const getUrl = (note) => {
   return note.url.replace('https', 'notion');
 };
 
-const getExistingNote = async (databaseId, title) => {
+export const getExistingNote = async (databaseId, title) => {
   const response = await notion.databases.query({
     database_id: databaseId,
     filter: {
@@ -27,7 +27,7 @@ const getExistingNote = async (databaseId, title) => {
   return null;
 };
 
-const createNote = async (parentId, title) => {
+export const createNote = async (parentId, title) => {
   const note = await notion.pages.create({
     parent: { database_id: parentId },
     properties: {
@@ -55,7 +55,7 @@ const getTemplateBlocks = async (id) => {
   return response.results.map((block) => omit(block, ['id', 'created_time', 'has_children', 'last_edited_time']));
 };
 
-const applyTemplate = async (templateId, targetId) => {
+export const applyTemplate = async (templateId, targetId) => {
   const templateBlocks = await getTemplateBlocks(templateId);
 
   // console.log('blocks.......')
@@ -67,17 +67,3 @@ const applyTemplate = async (templateId, targetId) => {
 
   return targetId;
 };
-
-export const openOrCreateWithTemplate = async (databaseId, title, templateId) => {
-  const existingNote = await getExistingNote(databaseId, title);
-
-  if (existingNote) {
-    return getUrl(existingNote);
-  }
-
-  const newNote = await createNote(databaseId, title);
-
-  await applyTemplate(templateId, newNote.id);
-
-  return getUrl(newNote);
-}
