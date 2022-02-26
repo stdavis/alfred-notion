@@ -8,23 +8,24 @@ const dateTitle = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
 
 const types = {
   work: {
-    databaseId: '7785176a361d4717b4978509d9f167b1',
+    databaseId: 'ed1b418a5a3a4131bc96a4240478598b',
     templateId: 'c21bd59b18204fa9942b1bc4050d63fe',
     title: dateTitle
   },
   bishop: {
-    databaseId: '6a4f1ca58b6245fa9492ca76381f6a07',
-    templateId: '024f3724e6eb44629fe49587b7926152',
+    databaseId: 'ecceb0c99ce74d98a5ff0fe11be87aa6',
+    templateId: 'fc8ba95d00de4dddb7521d2a34a97140',
     title
   },
   scratch: {
-    databaseId: 'cb3083c874054a9b930a6233edd6a535',
+    databaseId: '2d96dc41bcaa4232b96f05da5152eba6',
     templateId: null,
     title: title || dateTitle
   },
   journal: {
-    databaseId: '',
-    templateId: null
+    databaseId: 'a21e4c04cea147a48ebb616106c02181',
+    templateId: null,
+    title: dateTitle
   }
 };
 
