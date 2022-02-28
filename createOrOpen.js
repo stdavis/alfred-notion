@@ -1,5 +1,5 @@
 import alfy from 'alfy';
-import { applyTemplate, createNote, getExistingNote, getUrl } from './utils.js';
+import { createNote, getExistingNote, getUrl } from './utils.js';
 
 
 const type = process.argv[2];
@@ -36,11 +36,7 @@ try {
   if (existingNote) {
     console.log(getUrl(existingNote));
   } else {
-    const newNote = await createNote(databaseId, newTitle);
-
-    if (templateId) {
-      await applyTemplate(templateId, newNote.id);
-    }
+    const newNote = await createNote(databaseId, newTitle, templateId);
 
     console.log(getUrl(newNote));
   }
