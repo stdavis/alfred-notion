@@ -27,7 +27,9 @@ export const getExistingNote = async (databaseId, title) => {
   return null;
 };
 
-export const createNote = async (parentId, title) => {
+export const createNote = async (parentId, title, templateId) => {
+  const template = templateId ? await getTemplateBlocks(templateId) : null;
+
   const note = await notion.pages.create({
     parent: { database_id: parentId },
     properties: {
@@ -41,29 +43,32 @@ export const createNote = async (parentId, title) => {
         ],
       },
     },
+    children: template
   });
 
   return note;
 }
 
 const getTemplateBlocks = async (id) => {
+  const page_size = 100;
   const response = await notion.blocks.children.list({
     block_id: id,
-    page_size: 100,
+    page_size,
   });
 
-  return response.results.map((block) => omit(block, ['id', 'created_time', 'has_children', 'last_edited_time']));
-};
+  const strip = (block) => {
+    return omit(block, ['id', 'created_time', 'has_children', 'last_edited_time', 'created_by', 'last_edited_by']);
+  };
 
-export const applyTemplate = async (templateId, targetId) => {
-  const templateBlocks = await getTemplateBlocks(templateId);
+  const promises = response.results.map(async (block) => {
+    const newBlock = strip(block);
 
-  // console.log('blocks.......')
-  // console.log(JSON.stringify(templateBlocks, null, 2));
-  await notion.blocks.children.append({
-    block_id: targetId,
-    children: templateBlocks,
+    if (block.has_children) {
+      newBlock[block.type].children = await getTemplateBlocks(block.id);
+    }
+
+    return newBlock;
   });
 
-  return targetId;
+  return await Promise.all(promises);
 };
