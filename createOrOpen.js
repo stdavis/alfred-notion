@@ -4,7 +4,14 @@ import { createNote, getExistingNote, getUrl } from './utils.js';
 
 const type = process.argv[2];
 const title = process.argv.length > 3 ? process.argv[3].length ? process.argv[3] : null : null;
-const dateTitle = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+const today = new Date();
+const year = today.getFullYear();
+let month = today.getMonth() + 1;
+if (month < 10) {
+  month = `0${month}`;
+}
+const day = today.getDate();
+const dateTitle = `${year}-${month}-${day}`; // YYYY-MM-DD
 
 const types = {
   work: {
