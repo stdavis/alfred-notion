@@ -6,11 +6,9 @@ const type = process.argv[2];
 const title = process.argv.length > 3 ? process.argv[3].length ? process.argv[3] : null : null;
 const today = new Date();
 const year = today.getFullYear();
-let month = today.getMonth() + 1;
-if (month < 10) {
-  month = `0${month}`;
-}
-const day = today.getDate();
+const pad = (num) => num < 10 ? `0${num}` : num;
+let month = pad(today.getMonth() + 1);
+const day = pad(today.getDate());
 const dateTitle = `${year}-${month}-${day}`; // YYYY-MM-DD
 
 const types = {
