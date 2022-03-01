@@ -151,6 +151,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DFC33DB2-526F-4370-AB5C-79ECDB8E6FA7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A592ADAA-3AD8-4341-ADF1-EBC870FD094A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EA863475-4CD6-47C0-B314-E332F7E96231</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8528BA7-7639-4612-9725-D16C1BEB7DD1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F4FF1EDD-8606-44A1-A071-6CE69FC348D3</key>
 		<array>
 			<dict>
@@ -171,6 +197,25 @@
 	<string>Notion</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>E28EFC35-4099-49C0-95AD-0E69A2C616AC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -218,25 +263,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>E28EFC35-4099-49C0-95AD-0E69A2C616AC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -273,25 +299,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>1F1195FA-E70A-4C25-841C-9B83DE879BF1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
@@ -313,6 +320,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>1F1195FA-E70A-4C25-841C-9B83DE879BF1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -320,6 +346,25 @@
 			<string>alfred.workflow.utility.transform</string>
 			<key>uid</key>
 			<string>56854D3F-B5E5-4B66-A2C7-3C30CF7E42FD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A3485978-A4F5-4C28-AA78-BC6F4634AD79</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -341,25 +386,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>D309B97E-B460-4388-B61E-7BAC5F2BFA6D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>A3485978-A4F5-4C28-AA78-BC6F4634AD79</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -396,25 +422,6 @@
 			<string>alfred.workflow.utility.transform</string>
 			<key>uid</key>
 			<string>5FFB1D56-FD0A-45B8-A30E-A3034A406960</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6395822E-BF25-458B-82A0-19811637F7B8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -465,6 +472,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6395822E-BF25-458B-82A0-19811637F7B8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -472,6 +498,86 @@
 			<string>alfred.workflow.utility.transform</string>
 			<key>uid</key>
 			<string>016EEB5B-016B-4DD2-B37B-247189C46B79</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>tasks ugrc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>UGRC Tasks</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DFC33DB2-526F-4370-AB5C-79ECDB8E6FA7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>notion://www.notion.so/stdavis/646c27b0674b42b8a17edabc68064015?v=8d587d8bccfc4921acbbdcda03ca0062</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A592ADAA-3AD8-4341-ADF1-EBC870FD094A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>tasks church</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Church Tasks</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EA863475-4CD6-47C0-B314-E332F7E96231</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>notion://www.notion.so/stdavis/d764188bae7c46ba9ba19dee1454bcdb?v=d6db5f39f96849598dcf33c362d1ab43</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C8528BA7-7639-4612-9725-D16C1BEB7DD1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -564,12 +670,26 @@
 			<key>ypos</key>
 			<integer>350</integer>
 		</dict>
+		<key>A592ADAA-3AD8-4341-ADF1-EBC870FD094A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>635</integer>
+		</dict>
 		<key>C5789B4A-FBC3-4D35-A7E9-F65DCFA7A656</key>
 		<dict>
 			<key>xpos</key>
 			<integer>250</integer>
 			<key>ypos</key>
 			<integer>495</integer>
+		</dict>
+		<key>C8528BA7-7639-4612-9725-D16C1BEB7DD1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>775</integer>
 		</dict>
 		<key>D309B97E-B460-4388-B61E-7BAC5F2BFA6D</key>
 		<dict>
@@ -578,12 +698,26 @@
 			<key>ypos</key>
 			<integer>350</integer>
 		</dict>
+		<key>DFC33DB2-526F-4370-AB5C-79ECDB8E6FA7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>635</integer>
+		</dict>
 		<key>E28EFC35-4099-49C0-95AD-0E69A2C616AC</key>
 		<dict>
 			<key>xpos</key>
 			<integer>490</integer>
 			<key>ypos</key>
 			<integer>70</integer>
+		</dict>
+		<key>EA863475-4CD6-47C0-B314-E332F7E96231</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>775</integer>
 		</dict>
 		<key>F4FF1EDD-8606-44A1-A071-6CE69FC348D3</key>
 		<dict>
