@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/stdavis/alfred-notion/compare/v0.1.2...v0.1.3) (2022-03-01)
+
+
+### Bug Fixes
+
+* use faster node invocation ([af1df12](https://github.com/stdavis/alfred-notion/commit/af1df1232eebc9de4873adf298c0e04ca2b16c96))
+
 ### [0.1.2](https://github.com/stdavis/alfred-notion/compare/v0.1.1...v0.1.2) (2022-03-01)
 
 
