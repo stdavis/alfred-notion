@@ -4,6 +4,8 @@
   "description": "An Alfred workflow for working with Notion",
   "main": "index.js",
   "type": "module",
+  "bugs": "https://github.com/stdavis/alfred-notion/issues",
+  "home": "https://github.com/stdavis/alfred-notion",
   "scripts": {
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup",
