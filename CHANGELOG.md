@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/stdavis/alfred-notion/compare/v0.1.6...v0.1.7) (2022-03-14)
+
+
+### Bug Fixes
+
+* no arg for work note ([fb3a0b9](https://github.com/stdavis/alfred-notion/commit/fb3a0b9ea43f9a22e0d686c9fc5ce3b9b1988d64))
+
 ### [0.1.6](https://github.com/stdavis/alfred-notion/compare/v0.1.5...v0.1.6) (2022-03-14)
 
 
