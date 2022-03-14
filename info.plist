@@ -8,11 +8,11 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>016EEB5B-016B-4DD2-B37B-247189C46B79</key>
+		<key>0969CCA7-30BB-4F24-ADD3-EFF6FFFDA690</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6395822E-BF25-458B-82A0-19811637F7B8</string>
+				<string>7CB3611B-5FF8-471E-B6BA-F30250A2FA1C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -38,7 +38,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>5FFB1D56-FD0A-45B8-A30E-A3034A406960</string>
+				<string>4FCF0F6B-FA0B-43A3-905B-05F4DD5F4A11</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -60,24 +60,23 @@
 				<false/>
 			</dict>
 		</array>
-		<key>56854D3F-B5E5-4B66-A2C7-3C30CF7E42FD</key>
+		<key>4FCF0F6B-FA0B-43A3-905B-05F4DD5F4A11</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1F1195FA-E70A-4C25-841C-9B83DE879BF1</string>
+				<string>7CB3611B-5FF8-471E-B6BA-F30250A2FA1C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E98AA518-10AC-411C-80A3-DA8919C0C0DF</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-		</array>
-		<key>5FFB1D56-FD0A-45B8-A30E-A3034A406960</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A3485978-A4F5-4C28-AA78-BC6F4634AD79</string>
+				<string>7C7E628F-8A12-4BAB-8801-9CA16D418800</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -112,11 +111,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>9897FBE1-6761-4AEB-A26E-ADFFBF2BBC9C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7CB3611B-5FF8-471E-B6BA-F30250A2FA1C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>99CBCCFD-BB0B-4802-A8B5-C5768BD4C847</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>56854D3F-B5E5-4B66-A2C7-3C30CF7E42FD</string>
+				<string>4FCF0F6B-FA0B-43A3-905B-05F4DD5F4A11</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -129,7 +141,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>016EEB5B-016B-4DD2-B37B-247189C46B79</string>
+				<string>4FCF0F6B-FA0B-43A3-905B-05F4DD5F4A11</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -155,7 +167,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A592ADAA-3AD8-4341-ADF1-EBC870FD094A</string>
+				<string>0969CCA7-30BB-4F24-ADD3-EFF6FFFDA690</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -168,7 +180,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C8528BA7-7639-4612-9725-D16C1BEB7DD1</string>
+				<string>9897FBE1-6761-4AEB-A26E-ADFFBF2BBC9C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -181,7 +193,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7CB3611B-5FF8-471E-B6BA-F30250A2FA1C</string>
+				<string>4FCF0F6B-FA0B-43A3-905B-05F4DD5F4A11</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -200,304 +212,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>E28EFC35-4099-49C0-95AD-0E69A2C616AC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>wn</string>
-				<key>subtext</key>
-				<string>Update available: 0.1.0 → 1.1.0. Run `npm install -g alfred-notion`</string>
-				<key>text</key>
-				<string>Today's Work Note</string>
-				<key>withspace</key>
+				<key>argument</key>
+				<string>notion://www.notion.so/stdavis/646c27b0674b42b8a17edabc68064015?v=8d587d8bccfc4921acbbdcda03ca0062</string>
+				<key>passthroughargument</key>
 				<false/>
+				<key>variables</key>
+				<dict/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>8E1E5DD7-31CA-45AB-8A06-08F0A3986CFE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/node createOrOpen.js work "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>F4FF1EDD-8606-44A1-A071-6CE69FC348D3</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>7CB3611B-5FF8-471E-B6BA-F30250A2FA1C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/node createOrOpen.js scratch "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>99CBCCFD-BB0B-4802-A8B5-C5768BD4C847</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>scratch</string>
-				<key>subtext</key>
-				<string>Update available: 0.1.0 → 1.1.0. Run `npm install -g alfred-notion`</string>
-				<key>text</key>
-				<string>Scratch Note</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>3BB67068-FA43-476F-BA18-2F5E948F4174</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>1F1195FA-E70A-4C25-841C-9B83DE879BF1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>56854D3F-B5E5-4B66-A2C7-3C30CF7E42FD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>A3485978-A4F5-4C28-AA78-BC6F4634AD79</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>bishop</string>
-				<key>subtext</key>
-				<string>Update available: 0.1.0 → 1.1.0. Run `npm install -g alfred-notion`</string>
-				<key>text</key>
-				<string>Bishop Note</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D309B97E-B460-4388-B61E-7BAC5F2BFA6D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/node createOrOpen.js bishop "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>45326AD3-A7F7-4412-95BD-48B820AF0B97</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>5FFB1D56-FD0A-45B8-A30E-A3034A406960</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>journal</string>
-				<key>subtext</key>
-				<string>Update available: 0.1.0 → 1.1.0. Run `npm install -g alfred-notion`</string>
-				<key>text</key>
-				<string>Journal Note</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>49EF253E-8953-4553-B148-5C6DF2E9CE05</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/local/bin/node createOrOpen.js journal "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>C5789B4A-FBC3-4D35-A7E9-F65DCFA7A656</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6395822E-BF25-458B-82A0-19811637F7B8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>016EEB5B-016B-4DD2-B37B-247189C46B79</string>
+			<string>0969CCA7-30BB-4F24-ADD3-EFF6FFFDA690</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -530,14 +255,27 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>notion://www.notion.so/stdavis/646c27b0674b42b8a17edabc68064015?v=8d587d8bccfc4921acbbdcda03ca0062</string>
+				<string></string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>A592ADAA-3AD8-4341-ADF1-EBC870FD094A</string>
+			<string>E28EFC35-4099-49C0-95AD-0E69A2C616AC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>7CB3611B-5FF8-471E-B6BA-F30250A2FA1C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -565,166 +303,363 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
 				<string></string>
-				<key>spaces</key>
+				<key>title</key>
 				<string></string>
-				<key>url</key>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7C7E628F-8A12-4BAB-8801-9CA16D418800</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
 				<string>notion://www.notion.so/stdavis/d764188bae7c46ba9ba19dee1454bcdb?v=d6db5f39f96849598dcf33c362d1ab43</string>
-				<key>utf8</key>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9897FBE1-6761-4AEB-A26E-ADFFBF2BBC9C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>wn</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Today's Work Note</string>
+				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>C8528BA7-7639-4612-9725-D16C1BEB7DD1</string>
+			<string>8E1E5DD7-31CA-45AB-8A06-08F0A3986CFE</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node createOrOpen.js work "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F4FF1EDD-8606-44A1-A071-6CE69FC348D3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node createOrOpen.js scratch "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>99CBCCFD-BB0B-4802-A8B5-C5768BD4C847</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>scratch</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Scratch Note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3BB67068-FA43-476F-BA18-2F5E948F4174</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^notion:\/\/</string>
+						<key>outputlabel</key>
+						<string>open url</string>
+						<key>uid</key>
+						<string>E98AA518-10AC-411C-80A3-DA8919C0C0DF</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>show error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4FCF0F6B-FA0B-43A3-905B-05F4DD5F4A11</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>bishop</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Bishop Note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D309B97E-B460-4388-B61E-7BAC5F2BFA6D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node createOrOpen.js bishop "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>45326AD3-A7F7-4412-95BD-48B820AF0B97</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>journal</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Journal Note</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>49EF253E-8953-4553-B148-5C6DF2E9CE05</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node createOrOpen.js journal "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C5789B4A-FBC3-4D35-A7E9-F65DCFA7A656</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>016EEB5B-016B-4DD2-B37B-247189C46B79</key>
+		<key>0969CCA7-30BB-4F24-ADD3-EFF6FFFDA690</key>
 		<dict>
 			<key>xpos</key>
-			<integer>415</integer>
+			<integer>325</integer>
 			<key>ypos</key>
-			<integer>525</integer>
-		</dict>
-		<key>1F1195FA-E70A-4C25-841C-9B83DE879BF1</key>
-		<dict>
-			<key>xpos</key>
-			<integer>490</integer>
-			<key>ypos</key>
-			<integer>200</integer>
+			<integer>35</integer>
 		</dict>
 		<key>3BB67068-FA43-476F-BA18-2F5E948F4174</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>25</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>485</integer>
 		</dict>
 		<key>45326AD3-A7F7-4412-95BD-48B820AF0B97</key>
 		<dict>
 			<key>xpos</key>
-			<integer>245</integer>
+			<integer>230</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>635</integer>
 		</dict>
 		<key>49EF253E-8953-4553-B148-5C6DF2E9CE05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>25</integer>
 			<key>ypos</key>
-			<integer>495</integer>
+			<integer>770</integer>
 		</dict>
-		<key>56854D3F-B5E5-4B66-A2C7-3C30CF7E42FD</key>
+		<key>4FCF0F6B-FA0B-43A3-905B-05F4DD5F4A11</key>
 		<dict>
 			<key>xpos</key>
-			<integer>405</integer>
+			<integer>485</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>505</integer>
 		</dict>
-		<key>5FFB1D56-FD0A-45B8-A30E-A3034A406960</key>
+		<key>7C7E628F-8A12-4BAB-8801-9CA16D418800</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>675</integer>
 			<key>ypos</key>
-			<integer>380</integer>
-		</dict>
-		<key>6395822E-BF25-458B-82A0-19811637F7B8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<integer>495</integer>
+			<integer>200</integer>
 		</dict>
 		<key>7CB3611B-5FF8-471E-B6BA-F30250A2FA1C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>405</integer>
+			<integer>555</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>110</integer>
 		</dict>
 		<key>8E1E5DD7-31CA-45AB-8A06-08F0A3986CFE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>25</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>340</integer>
+		</dict>
+		<key>9897FBE1-6761-4AEB-A26E-ADFFBF2BBC9C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>325</integer>
+			<key>ypos</key>
+			<integer>210</integer>
 		</dict>
 		<key>99CBCCFD-BB0B-4802-A8B5-C5768BD4C847</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>200</integer>
-		</dict>
-		<key>A3485978-A4F5-4C28-AA78-BC6F4634AD79</key>
-		<dict>
-			<key>xpos</key>
-			<integer>495</integer>
-			<key>ypos</key>
-			<integer>350</integer>
-		</dict>
-		<key>A592ADAA-3AD8-4341-ADF1-EBC870FD094A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>250</integer>
-			<key>ypos</key>
-			<integer>635</integer>
+			<integer>485</integer>
 		</dict>
 		<key>C5789B4A-FBC3-4D35-A7E9-F65DCFA7A656</key>
 		<dict>
 			<key>xpos</key>
-			<integer>250</integer>
+			<integer>235</integer>
 			<key>ypos</key>
-			<integer>495</integer>
-		</dict>
-		<key>C8528BA7-7639-4612-9725-D16C1BEB7DD1</key>
-		<dict>
-			<key>xpos</key>
-			<integer>250</integer>
-			<key>ypos</key>
-			<integer>775</integer>
+			<integer>770</integer>
 		</dict>
 		<key>D309B97E-B460-4388-B61E-7BAC5F2BFA6D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>45</integer>
+			<integer>25</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>635</integer>
 		</dict>
 		<key>DFC33DB2-526F-4370-AB5C-79ECDB8E6FA7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>35</integer>
 			<key>ypos</key>
-			<integer>635</integer>
+			<integer>50</integer>
 		</dict>
 		<key>E28EFC35-4099-49C0-95AD-0E69A2C616AC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>665</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>75</integer>
 		</dict>
 		<key>EA863475-4CD6-47C0-B314-E332F7E96231</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>35</integer>
 			<key>ypos</key>
-			<integer>775</integer>
+			<integer>190</integer>
 		</dict>
 		<key>F4FF1EDD-8606-44A1-A071-6CE69FC348D3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>340</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
