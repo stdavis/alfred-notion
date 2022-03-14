@@ -342,7 +342,7 @@
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>keyword</key>
 				<string>wn</string>
 				<key>subtext</key>
@@ -350,7 +350,7 @@
 				<key>text</key>
 				<string>Today's Work Note</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
