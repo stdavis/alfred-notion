@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/stdavis/alfred-notion/compare/v0.1.5...v0.1.6) (2022-03-14)
+
+
+### Bug Fixes
+
+* node invocation and workflow props ([e59d8a4](https://github.com/stdavis/alfred-notion/commit/e59d8a4bec5a07c308f2a30a7611ec14caf4024d))
+
 ### [0.1.5](https://github.com/stdavis/alfred-notion/compare/v0.1.4...v0.1.5) (2022-03-07)
 
 
