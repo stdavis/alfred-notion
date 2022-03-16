@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/stdavis/alfred-notion/compare/v0.1.7...v0.1.8) (2022-03-16)
+
+
+### Bug Fixes
+
+* better display of errors ([b49f5cb](https://github.com/stdavis/alfred-notion/commit/b49f5cb39fd9f0bee7291483a5b52947a8f542f5))
+* handle notes without a template value ([892099e](https://github.com/stdavis/alfred-notion/commit/892099eb589515c8a529c50d1e515919ac864c85))
+
 ### [0.1.7](https://github.com/stdavis/alfred-notion/compare/v0.1.6...v0.1.7) (2022-03-14)
 
 
