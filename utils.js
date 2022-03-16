@@ -30,7 +30,7 @@ export const getExistingNote = async (databaseId, title) => {
 export const createNote = async (parentId, title, templateId) => {
   const template = templateId ? await getTemplateBlocks(templateId) : null;
 
-  const note = await notion.pages.create({
+  const createConfig = {
     parent: { database_id: parentId },
     properties: {
       title: {
@@ -43,8 +43,13 @@ export const createNote = async (parentId, title, templateId) => {
         ],
       },
     },
-    children: template
-  });
+  }
+
+  if (template) {
+    createConfig.properties.children = template;
+  }
+
+  const note = await notion.pages.create(createConfig);
 
   return note;
 }
