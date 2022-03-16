@@ -1,4 +1,3 @@
-import alfy from 'alfy';
 import { createNote, getExistingNote, getUrl } from './utils.js';
 
 
@@ -46,5 +45,5 @@ try {
     console.log(getUrl(newNote));
   }
 } catch (error) {
-  alfy.error(error);
+  console.log(error);
 }
