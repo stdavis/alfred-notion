@@ -46,7 +46,7 @@ export const createNote = async (parentId, title, templateId) => {
   }
 
   if (template) {
-    createConfig.properties.children = template;
+    createConfig.children = template;
   }
 
   const note = await notion.pages.create(createConfig);
