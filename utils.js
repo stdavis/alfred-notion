@@ -12,7 +12,7 @@ export const getExistingNote = async (databaseId, title) => {
     database_id: databaseId,
     filter: {
       property: 'title',
-      text: {
+      title: {
         equals: title,
       },
     },
@@ -43,7 +43,7 @@ export const createNote = async (parentId, title, templateId) => {
         ],
       },
     },
-  }
+  };
 
   if (template) {
     createConfig.children = template;
@@ -52,7 +52,7 @@ export const createNote = async (parentId, title, templateId) => {
   const note = await notion.pages.create(createConfig);
 
   return note;
-}
+};
 
 const getTemplateBlocks = async (id) => {
   const page_size = 100;
