@@ -662,15 +662,6 @@
 			<integer>340</integer>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>SECRET</key>
-		<string>***REMOVED***</string>
-	</dict>
-	<key>variablesdontexport</key>
-	<array>
-		<string>SECRET</string>
-	</array>
 	<key>version</key>
 	<string></string>
 </dict>

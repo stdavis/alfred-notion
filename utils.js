@@ -1,5 +1,6 @@
 import { Client } from '@notionhq/client';
 import omit from 'lodash.omit';
+import 'dotenv/config';
 
 const notion = new Client({ auth: process.env.SECRET });
 
