@@ -34,7 +34,7 @@ export const createNote = async (parentId, title, templateId) => {
   const createConfig = {
     parent: { database_id: parentId },
     properties: {
-      title: {
+      Title: {
         title: [
           {
             text: {
@@ -63,7 +63,7 @@ const getTemplateBlocks = async (id) => {
   });
 
   const strip = (block) => {
-    return omit(block, ['id', 'created_time', 'has_children', 'last_edited_time', 'created_by', 'last_edited_by']);
+    return omit(block, ['id', 'created_time', 'has_children', 'last_edited_time', 'created_by', 'last_edited_by', 'parent']);
   };
 
   const promises = response.results.map(async (block) => {
